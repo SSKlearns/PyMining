@@ -1,0 +1,8 @@
+Team Name: PyMining
+
+Members:
+- Sarvesh Shashikumar [2025SIY7623]
+- Mukul Gupta [2022TT11351]
+- Shreyansh Jain [2025SIY7622]
+
+Github Repository: https://github.com/SSKlearns/PyMining
