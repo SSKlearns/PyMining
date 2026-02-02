@@ -1,0 +1,85 @@
+Loading database graphs...
+Loaded 4337 graphs
+Removing duplicates...
+Unique graphs: 3029
+
+Mining with minsup=151 (5%)
+  Mining 1-edge patterns...
+  Found 15 frequent 1-edge patterns
+  Mining 2-edge patterns...
+  Found 24 frequent 2-edge patterns
+Found 39 frequent subgraphs
+
+Mining with minsup=302 (10%)
+  Mining 1-edge patterns...
+  Found 13 frequent 1-edge patterns
+  Mining 2-edge patterns...
+  Found 21 frequent 2-edge patterns
+Found 34 frequent subgraphs
+
+Mining with minsup=454 (15%)
+  Mining 1-edge patterns...
+  Found 12 frequent 1-edge patterns
+  Mining 2-edge patterns...
+  Found 16 frequent 2-edge patterns
+Found 28 frequent subgraphs
+
+Mining with minsup=605 (20%)
+  Mining 1-edge patterns...
+  Found 8 frequent 1-edge patterns
+  Mining 2-edge patterns...
+  Found 14 frequent 2-edge patterns
+Found 22 frequent subgraphs
+
+Mining with minsup=908 (30%)
+  Mining 1-edge patterns...
+  Found 8 frequent 1-edge patterns
+  Mining 2-edge patterns...
+  Found 13 frequent 2-edge patterns
+Found 21 frequent subgraphs
+
+Mining with minsup=1211 (40%)
+  Mining 1-edge patterns...
+  Found 6 frequent 1-edge patterns
+  Mining 2-edge patterns...
+  Found 9 frequent 2-edge patterns
+Found 15 frequent subgraphs
+
+Total candidate fragments: 159
+Removing duplicate fragments...
+Unique fragments: 32
+
+Scoring fragments...
+Selecting top 50 discriminative fragments...
+Selected fragment 1: V=2, E=1, support=46.418%, score=0.896295
+Selected fragment 2: V=2, E=1, support=57.8739%, score=0.882036
+Selected fragment 3: V=2, E=1, support=61.3734%, score=0.862348
+Selected fragment 4: V=2, E=1, support=35.6553%, score=0.839785
+Selected fragment 5: V=2, E=1, support=35.6223%, score=0.839503
+Selected fragment 6: V=2, E=1, support=78.2106%, score=0.656303
+Selected fragment 7: V=2, E=1, support=18.8511%, score=0.598346
+Selected fragment 8: V=2, E=1, support=16.1109%, score=0.536957
+Selected fragment 9: V=2, E=1, support=15.7148%, score=0.527442
+Selected fragment 10: V=2, E=1, support=12.7105%, score=0.449444
+Selected fragment 11: V=3, E=2, support=9.90426%, score=0.265953
+Selected fragment 12: V=2, E=1, support=6.0416%, score=0.229094
+Selected fragment 13: V=2, E=1, support=5.64543%, score=0.213206
+Selected fragment 14: V=3, E=2, support=8.08848%, score=0.205289
+
+Adding more fragments to reach 50 (relaxing redundancy)...
+Added fragment 15
+Added fragment 16
+Added fragment 17
+Added fragment 18
+Added fragment 19
+Added fragment 20
+Added fragment 21
+Added fragment 22
+Added fragment 23
+
+Padding to exactly 50...
+
+Writing 50 fragments to muta_fragments.txt
+Verified: written 50 fragments
+
+Success! 50 discriminative subgraphs identified.
